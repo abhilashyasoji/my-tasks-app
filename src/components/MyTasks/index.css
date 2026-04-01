@@ -1,0 +1,76 @@
+/* write your css code here*/
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.create-task-container {
+  background-color: #131213;
+  width: 40%;
+  padding: 40px;
+}
+
+.create-task-heading {
+  color: #f3aa4e;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.create-task-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-task-label {
+  color: #f1f5f9;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.create-task-input {
+  background-color: #f1f5f9;
+  color: #64748b;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.button {
+  margin-top: 25px;
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: #f3aa4e;
+  color: #f1f5f9;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.tasks-container {
+  background-color: #000000;
+  width: 60%;
+  padding: 40px;
+}
+
+.tags-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.tasks-list {
+  list-style-type: none;
+  padding: 0;
+}

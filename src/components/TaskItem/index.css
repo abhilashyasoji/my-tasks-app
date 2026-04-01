@@ -1,0 +1,26 @@
+/* write your css code here*/
+.task-item {
+  list-style-type: none;
+  background-color: #1a171d;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-name {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.task-tag {
+  background-color: #f3aa4e;
+  color: #1a171d;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
